@@ -9,23 +9,23 @@
 
 [alias]
     ap = add --patch
-	au = add --update
-	bl = blame
+    au = add --update
+    bl = blame
     br = branch
-	cb = checkout -b
+    cb = checkout -b
     ci = commit --signoff
     co = checkout
     di = diff
     dw = diff --word-diff
-	mg = merge --no-ff
+    mg = merge --no-ff
     re = rebase
-	rf = reflog
-	ru = rebase --interactive
+    rf = reflog
+    ru = rebase --interactive
     st = status --branch --short
 
-	review       = push origin HEAD:refs/for/master
-	review-wip   = push origin HEAD:refs/for/master%wip
-	review-ready = push origin HEAD:refs/for/master%ready
+    review       = push origin HEAD:refs/for/master
+    review-wip   = push origin HEAD:refs/for/master%wip
+    review-ready = push origin HEAD:refs/for/master%ready
 
     # Log & Diffs
     k        = !gitk
@@ -44,7 +44,7 @@
 
     undo  = reset --hard
     fixup = commit --amend -C HEAD
-	fix   = commit --amend -C HEAD
+    fix   = commit --amend -C HEAD
 
     prune-all = !git remote | xargs -n 1 git remote prune
     prune-preview = remote prune --no-dry

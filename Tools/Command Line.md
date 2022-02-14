@@ -26,17 +26,17 @@
 ```bash
 packages=('cppman'
           'fd-find'
-		  'ffmpeg'
-		  'fzf'
-		  'git'
-		  'graphviz'
-		  'hdf5-tools'
-		  'imagemagick'
+          'ffmpeg'
+          'fzf'
+          'git'
+          'graphviz'
+          'hdf5-tools'
+          'imagemagick'
           'most'
-		  'neovim'
+          'neovim'
           'ripgrep'
           'rsync'
-		  'pv'
+          'pv'
           'tmux'
           'xclip'
           'todotxt-cli')
@@ -61,7 +61,7 @@ pip3 install ${packages[*]}
 
 packages=('procs'
           'sd'
-		  'tealdeer')
+          'tealdeer')
 
 cargo install ${packages[*]}
 ```
@@ -77,20 +77,20 @@ packages=('cling'
           'erlang'
           'fd'
           'ffmpeg'
-		  'fzf'
-		  'gcc'
-		  'gdb'
-		  'git'
-		  'graphviz'
-		  'htop'
-		  'imagemagick'
-		  'lua'
-		  'most'
-		  'neofetch'
-		  'pv'
-		  'ripgrep'
-		  'tmux'
-		  'youtube-dl')
+          'fzf'
+          'gcc'
+          'gdb'
+          'git'
+          'graphviz'
+          'htop'
+          'imagemagick'
+          'lua'
+          'most'
+          'neofetch'
+          'pv'
+          'ripgrep'
+          'tmux'
+          'youtube-dl')
 
 brew update
 brew install ${packages[*]}

@@ -1,7 +1,7 @@
 ```bash
 function change_directory_interactive()
 {
-	cd "$(fd --type directory | fzf --height=50%)"
+    cd "$(fd --type directory | fzf --height=50%)"
 }
 
 # https://ostechnix.com/a-bash-function-to-extract-file-archives-of-various-types/
@@ -34,7 +34,7 @@ export PROMPT_DIRTRIM='3'
 
 # https://bashrcgenerator.com/
 # 02:23:52 0 (main) /usr/local/src $
-export PS1="\[\033[38;5;6m\]\t\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;7m\]\$?\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;1m\]\$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;2m\]\w\[$(tput sgr0)\] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;3m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+export PS1="\[\033[38;5;6m\]    \[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;7m\]\$?\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;1m\]\$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;2m\]\w\[$(tput sgr0)\] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;3m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 
 # conveniences
 alias ..='cd ..'
