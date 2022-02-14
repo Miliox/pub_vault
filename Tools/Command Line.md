@@ -1,4 +1,3 @@
-
 # Packages
 * [alacritty](https://alacritty.org/)
 * [cppman](https://github.com/aitjcize/cppman)
@@ -8,6 +7,7 @@
 * [fzf](https://github.com/junegunn/fzf) 
 * [ghidra](https://ghidra-sre.org/)
 * [image magick](https://imagemagick.org/)
+* [j2cli](https://github.com/kolypto/j2cli)
 * [most](https://www.cyberciti.biz/faq/unix-linux-color-man-pages-configuration/)
 * [neo-vim](https://neovim.io/)
 * [procs](https://github.com/dalance/procs)
@@ -48,6 +48,7 @@ sudo apt install ${packages[*]}
 ## Python
 ```bash
 packages=('gdbgui'
+          'j2cli'
           'howdoi'
           'pygments')
 
